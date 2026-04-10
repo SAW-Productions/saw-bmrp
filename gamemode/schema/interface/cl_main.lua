@@ -11,9 +11,9 @@
 
 BMS_NAV_COLOR = Color(228, 113, 37)
 BMS_NAV_COLOR_BOTTOM = Color(0, 0, 0, 100)
-BMS_NAV_LOGO = ax.util:GetMaterial("riggs9162/bms/ui/project-ordinance.png", "smooth mips")
+BMS_NAV_LOGO = ax.util:GetMaterial("sawbmrp/sawlogo.png", "smooth mips")
 BMS_MAIN_GRADIENT_COLOR = Color(228, 113, 37, 25)
-BMS_MAIN_LOGO_MARK = ax.util:GetMaterial("riggs9162/bms/ui/logo-mark.png", "smooth mips")
+BMS_MAIN_LOGO_MARK = ax.util:GetMaterial("sawbmrp/sawlogo.png", "smooth mips")
 
 local function GetRatioSize(originalW, originalH, maxW, maxH)
     local ratio = math.min(maxW / originalW, maxH / originalH)

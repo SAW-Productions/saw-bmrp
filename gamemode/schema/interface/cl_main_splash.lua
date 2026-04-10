@@ -9,7 +9,7 @@
     Attribution is required. If you use or modify this file, you must retain this notice.
 ]]
 
-BMS_SPLASH_LOGO = ax.util:GetMaterial("riggs9162/bms/ui/logo.png", "smooth mips")
+BMS_SPLASH_LOGO = ax.util:GetMaterial("sawbmrp/sawlogo.png", "smooth mips")
 
 local function GetRatioSize(originalW, originalH, maxW, maxH)
     local ratio = math.min(maxW / originalW, maxH / originalH)
